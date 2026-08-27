@@ -27,7 +27,7 @@ body {
 }
 .vert-text .btn {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 /* Side Menu */
@@ -129,18 +129,27 @@ body {
   background-size: cover;
 }
 
+/* Position content toward the top of the header so the logo appears higher */
+.header .vert-text {
+  vertical-align: top;
+  padding-top: 60px;
+}
+
 /* Intro */
 
 .intro {
   padding: 50px 0;
+  background: #2D2526;
+  color: #E7E7E7;
 }
 
 /* Services */
 
 .services {
   background: #E7E7E7;
-  padding: 50px 0;
-  color: #2D2526;
+  padding: 80px 0;
+  color: #000000;
+  height: 100%;
 }
 
 .service-item {
@@ -274,6 +283,11 @@ i.scroll:hover {
 	
   .header {
 	background: url('../img/bg.png') no-repeat center center scroll; 
+  }
+
+  .header .vert-text {
+    padding-top: 30px;
+    vertical-align: top;
   }
 
   .callout {
