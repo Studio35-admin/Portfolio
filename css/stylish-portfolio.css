@@ -22,7 +22,7 @@ body {
 .vert-text img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 .vert-text .btn {
@@ -36,7 +36,7 @@ body {
   margin-right: -250px;
   right: 0;
   width: 250px;
-  background: #000;
+  background: #2D2526;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -63,14 +63,14 @@ body {
 }
 
 .sidebar-nav li a {
-  color: #999999;
+  color: #E7E7E7;
   display: block;
   text-decoration: none;
 }
 
 .sidebar-nav li a:hover {
-  color: #fff;
-  background: rgba(255,255,255,0.2);
+  color: #E7E7E7;
+  background: #40393A;
   text-decoration: none;
 }
 
@@ -86,11 +86,11 @@ body {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #999999;
+  color: #40393A;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: #E7E7E7;
   background: none;
 }
 
@@ -138,17 +138,17 @@ body {
 /* Services */
 
 .services {
-  background: #7fbbda;
+  background: #E7E7E7;
   padding: 50px 0;
-  color: #ffffff;
+  color: #2D2526;
 }
 
 .service-item {
   margin-bottom: 15px;
 }
 
-i.service-icon {
-  border: 3px solid #ffffff;
+i.service-icon1 {
+  border: 3px solid #06B558;
   border-radius: 50%;
   display: inline-block;
   font-size: 56px;
@@ -157,12 +157,52 @@ i.service-icon {
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
+  color: #06B558;
+}
+
+i.service-icon2 {
+  border: 3px solid #FF6F19;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+  color: #FF6F19;
+}
+
+i.service-icon3 {
+  border: 3px solid #D00000;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+  color: #D00000;
+}
+
+i.service-icon4 {
+  border: 3px solid #1D5BBF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+  color: #1D5BBF;
 }
 
 /* Callout */
 
 .callout {
-  color: #ffffff;
+  color: #E7E7E7;
   display: table;
   height: 400px;
   width: 100%;
@@ -191,8 +231,8 @@ i.service-icon {
 /* Call to Action */
 
 .call-to-action {
-  color: #ffffff;
-  background: #0a5175;
+  color: #E7E7E7;
+  background: #2D2526;
   padding: 50px 0;
 }
 
@@ -222,11 +262,11 @@ footer {
 }
 
 i.scroll {
-  color: #333333;
+  color: #40393A;
 }
 
 i.scroll:hover {
-  color: #0a5175;
+  color: #1D5BBF;
 }
 /* Responsive */
 
