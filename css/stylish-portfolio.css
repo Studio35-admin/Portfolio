@@ -18,6 +18,17 @@ body {
   font-size: 4.5em;
   font-weight: 700;
 }
+/* Ensure elements inside the hero stack vertically and are centered */
+.vert-text img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.vert-text .btn {
+  display: inline-block;
+  margin-top: 20px;
+}
 
 /* Side Menu */
 
