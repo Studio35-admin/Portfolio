@@ -11,6 +11,8 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <!-- Google Font: Cooper Hewitt -->
+    <link href="https://fonts.googleapis.com/css2?family=Cooper+Hewitt:wght@400;700&display=swap" rel="stylesheet">
     <!-- Add custom CSS here -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -25,9 +27,8 @@
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a></li>
         <li><a href="#top">Inicio</a></li>
-        <li><a href="#about">Sobre Nosotros</a></li>
         <li><a href="#services">Nuestro Trabajo</a></li>
-        <!--<li><a href="#portfolio">Portfolio</a></li>-->
+        <li><a href="#about">Sobre Nosotros</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
     </div>
@@ -38,8 +39,11 @@
       <div class="vert-text">
         <h1 class="sr-only">Studio 35</h1>
         <h3 class="sr-only"> Data. Software. Electrónica. Educación. </h3>
-        <img src="img/logo_Studio35_horizontal_nobg.png" alt="Studio 35 Logo">
-        <a href="#contact" class="btn btn-default btn-lg">Contáctanos</a>
+        <picture>
+          <source media="(max-width:768px)" srcset="img/logo_Studio35_nobg.png">
+          <img id="site-logo" src="img/logo_Studio35_horizontal_nobg.png" alt="Studio 35 Logo">
+        </picture>
+        <a href="#contact" class="btn btn-danger btn-lg">Contáctanos</a>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -61,7 +65,7 @@
               <i class="service-icon1 fa fa-table"></i>
               <h3>Data</h3>
               <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
-              <a href="icon-preview.html" class="btn btn-success">Ver Demo</a>
+              <a href="icon-preview.html" class="btn btn-success btn-lg">Ver Demo</a>
             </div>
           </div>
           <div class="col-md-3 text-center">
@@ -69,7 +73,7 @@
               <i class="service-icon2 fa fa-laptop"></i>
               <h3>Software</h3>
               <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-              <a href="https://htmlcheatsheet.com/" class="btn btn-warning">Ver Demo</a>
+              <a href="https://htmlcheatsheet.com/" class="btn btn-warning btn-lg">Ver Demo</a>
             </div>
           </div>
           <div class="col-md-3 text-center">
@@ -77,7 +81,7 @@
               <i class="service-icon3 fa fa-gears"></i>
               <h3>Electrónica</h3>
               <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
-              <a href="https://htmlcheatsheet.com/" class="btn btn-danger">Ver Demo</a>
+              <a href="https://htmlcheatsheet.com/" class="btn btn-danger btn-lg">Ver Demo</a>
             </div>
           </div>
           <div class="col-md-3 text-center">
@@ -85,7 +89,7 @@
               <i class="service-icon4 fa fa-flask"></i>
               <h3>Educación</h3>
               <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
-              <a href="https://htmlcheatsheet.com/" class="btn btn-primary">Ver Demo</a>
+              <a href="https://htmlcheatsheet.com/" class="btn btn-primary btn-lg">Ver Demo</a>
             </div>
           </div>
         </div>
@@ -174,7 +178,7 @@
 
     <!-- Map -->
     <div id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small></iframe>
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
     </div>
     <!-- /Map -->
     
@@ -182,18 +186,21 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <ul class="list-inline">
-              <li><i class="fa fa-facebook fa-3x"></i></li>
-              <li><i class="fa fa-twitter fa-3x"></i></li>
-              <li><i class="fa fa-dribbble fa-3x"></i></li>
-            </ul>
-            <div class="top-scroll">
-              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-            </div>
+          <div class="col-md-12 col-md-offset-0 text-center">
             <hr>
-            <p>Copyright &copy; Company 2013</p>
+            <ul class="list-inline">
+              <li><a href="https://www.instagram.com/mariannlym/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+              <li><a href="https://www.instagram.com/mariannlym/" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa fa-youtube-play fa-3x"></i></a></li>
+              <li><a href="https://www.instagram.com/mariannlym/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram fa-3x"></i></a></li>
+              <li><a href="https://www.instagram.com/mariannlym/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github-square fa-3x"></i></a></li>
+            </ul>
+            <p>Copyright &copy; Studio 35 2026</p>
           </div>
+          <!--
+          <div class="col-md-12 col-md-offset-1 text-center">
+              <a href="#top" class="btn btn-default btn-lg"><i class="fa fa-angle-double-up fa-2x"></i></a>
+          </div>
+          -->
         </div>
       </div>
     </footer>
